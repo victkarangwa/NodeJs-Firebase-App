@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-firebase-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorkarangwa4/NodeJs-Firebase-App.git"
+  },
+  "keywords": [
+    "nodeJs;",
+    "Firebase;",
+    "realtTime Database",
+    "realtTime DB;"
+  ],
+  "author": "Victor Karangwa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/victorkarangwa4/NodeJs-Firebase-App/issues"
+  },
+  "homepage": "https://github.com/victorkarangwa4/NodeJs-Firebase-App#readme"
+}
