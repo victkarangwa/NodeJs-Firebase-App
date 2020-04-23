@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev-start": "babel-node server/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,15 +12,41 @@
     "url": "git+https://github.com/victorkarangwa4/NodeJs-Firebase-App.git"
   },
   "keywords": [
-    "nodeJs;",
-    "Firebase;",
+    "nodeJs",
+    "Firebase",
+    "Firebase-tools",
+    "Firebase-admin",
+    "realtTime DB",
     "realtTime Database",
-    "realtTime DB;"
+    "expressJs",
+    "DB"
   ],
   "author": "Victor Karangwa",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/victorkarangwa4/NodeJs-Firebase-App/issues"
   },
-  "homepage": "https://github.com/victorkarangwa4/NodeJs-Firebase-App#readme"
+  "homepage": "https://github.com/victorkarangwa4/NodeJs-Firebase-App#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "faker": "^4.1.0",
+    "firebase-admin": "8.10.0",
+    "method-override": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/node": "^7.8.4",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/polyfill": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/register": "^7.8.3",
+    "@babel/runtime": "^7.8.4",
+    "babel-loader": "^8.0.6"
+  }
 }
